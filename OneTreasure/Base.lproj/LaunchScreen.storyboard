@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Default.png" translatesAutoresizingMaskIntoConstraints="NO" id="tz1-1m-Y3D">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我的灯和酒坛上落满灰尘" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="djm-wy-0vV">
+                                <rect key="frame" x="15" y="580" width="191" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="而遥远的路却干干净净。--海子" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bJR-Og-v8G">
+                                <rect key="frame" x="98" y="616" width="241" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cCv-wu-BAw">
+                                <rect key="frame" x="0.0" y="547" width="375" height="120"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="xkF-Sl-JSl"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99607843137254903" green="0.99607843137254903" blue="0.99607843137254903" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="tz1-1m-Y3D" secondAttribute="trailing" id="5Y4-Ft-YcA"/>
+                            <constraint firstAttribute="trailing" secondItem="cCv-wu-BAw" secondAttribute="trailing" id="7wA-TL-jMk"/>
+                            <constraint firstItem="bJR-Og-v8G" firstAttribute="top" secondItem="djm-wy-0vV" secondAttribute="bottom" constant="15" id="NJk-Cs-w0A"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="cCv-wu-BAw" secondAttribute="bottom" id="QcT-Wo-RN4"/>
+                            <constraint firstItem="cCv-wu-BAw" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Qrz-QM-aWD"/>
+                            <constraint firstAttribute="trailing" secondItem="bJR-Og-v8G" secondAttribute="trailing" constant="36" id="XR7-sq-XHg"/>
+                            <constraint firstItem="tz1-1m-Y3D" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="acH-ga-yOK"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="bJR-Og-v8G" secondAttribute="bottom" constant="30" id="iQN-ph-3Si"/>
+                            <constraint firstItem="djm-wy-0vV" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="15" id="oUu-Om-NrT"/>
+                            <constraint firstItem="tz1-1m-Y3D" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="s2P-A3-9kM"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="tz1-1m-Y3D" secondAttribute="bottom" id="uW4-zy-8Ge"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Default.png" width="640" height="1136"/>
+    </resources>
+</document>

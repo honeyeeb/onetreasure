@@ -1,0 +1,18 @@
+//
+//  OTPrefixHeader.pch
+//  OneTreasure
+//
+//  Created by Frederic on 2016/11/23.
+//  Copyright © 2016年 honeyeeb. All rights reserved.
+//
+
+#ifndef OTPrefixHeader_pch
+#define OTPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "OTUtils.h"
+
+
+#endif /* OTPrefixHeader_pch */
